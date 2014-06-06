@@ -72,7 +72,7 @@ Not Exactly What You Want?
 
 There's `more intricate variant <https://github.com/ionelmc/cookiecutter-pylibrary>`_ of this template that:
 
-* Has a generator script for the test matrix (``tox.ini``/``.travis.yml``).
+* Has a generator script for the test matrix (there's a ``configure`` script that generates ``tox.ini``/``.travis.yml``).
 * Uses Pytest_ for the test runner.
 
 If you have criticism or suggestions please open up an Issue or Pull Request.
