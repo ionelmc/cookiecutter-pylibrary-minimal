@@ -1,0 +1,14 @@
+{
+    "full_name": "Ionel Cristian Mărieș",
+    "email": "contact@ionelmc.ro",
+    "website": "http://blog.ionelmc.ro",
+    "github_username": "ionelmc",
+    "project_name": "Nameless",
+    "repo_name": "python-nameless-minimal",
+    "package_name": "nameless",
+    "distribution_name": "nameless-minimal",
+    "project_short_description": "An example package. Replace this with a proper project description. Generated with https://github.com/ionelmc/cookiecutter-pylibrary",
+    "release_date": "2014-01-01",
+    "year": "2014",
+    "version": "0.1.0"
+}
