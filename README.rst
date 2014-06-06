@@ -11,7 +11,7 @@ Features
 --------
 
 * BSD 2-clause license.
-* Tox_ for testing Python 2.6, 2.7, 3.3, PyPy etc. Support for creating a tests matrix out of dependencies and python versions.
+* Tox_ for testing Python 2.6, 2.7, 3.3, PyPy etc. 
 * Travis-CI_ and Coveralls_ for continuous testing and coverage tracking (using Tox_).
 * Documentation with Sphinx_, ready for ReadTheDocs_.
 
@@ -27,10 +27,7 @@ Projects using this template have these minimal dependencies:
 Usage
 -----
 
-This template is more involved than the regular `cookiecutter-pypackage
-<https://github.com/audreyr/cookiecutter-pypackage>`_.
-
-First generate your project::
+Generate your project::
 
     cookiecutter https://github.com/ionelmc/cookiecutter-pylibrary.git
 
@@ -47,23 +44,6 @@ First generate your project::
           - Python package name (whatever you would import)
         * - distribution_name
           - PyPI distribution name (what you would ``pip install``)
-        * - test_pythons
-          - Vertical bar (``|``) separated list of python versions to test. Changeable later in ``configure``.
-
-            For testing on Windows use the full paths to python.exe. Example::
-
-              c:\Python27\python.exe|c:\Python34\python.exe
-        * - test_dependencies
-          - Vertical bar (``|``) separated list of dependencies to test. Changeable later in ``configure``.
-
-The testing (``tox.ini`` and ``.travis.yml``) configuration is generated from templates. For your convenience there's an
-initial bootstrap ``tox.ini``, to get the initial generation going just run::
-
-    tox
-
-You can later regenerate ``tox.ini`` and ``.travis.yml`` by running::
-
-    ./configure
 
 After this you can create the initial repository (make sure you `create <https://github.com/new>`_ an *empty* Github
 project)::
@@ -90,7 +70,10 @@ Then:
 Not Exactly What You Want?
 --------------------------
 
-No way, this is the best. :stuck_out_tongue_winking_eye:
+There's `more intricate variant <https://github.com/ionelmc/cookiecutter-pylibrary>`_ of this template that:
+
+* Has a generator script for the test matrix (``tox.ini``/``.travis.yml``).
+* Uses Pytest_ for the test runner.
 
 If you have criticism or suggestions please open up an Issue or Pull Request.
 
@@ -100,3 +83,4 @@ If you have criticism or suggestions please open up an Issue or Pull Request.
 .. _Coveralls: https://coveralls.io/
 .. _ReadTheDocs: https://readthedocs.org/
 .. _Setuptools: https://pypi.python.org/pypi/setuptools
+.. _Pytest: http://pytest.org/
