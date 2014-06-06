@@ -29,7 +29,7 @@ Usage
 
 Generate your project::
 
-    cookiecutter https://github.com/ionelmc/cookiecutter-pylibrary.git
+    cookiecutter https://github.com/ionelmc/cookiecutter-pylibrary-minimal.git
 
 ..
 
