@@ -1,4 +1,3 @@
-
 language: python
 python: 2.7
 env:
@@ -10,6 +9,11 @@ env:
     - TOXENV=py33,coveralls
     - TOXENV=py34,coveralls
     - TOXENV=pypy,coveralls
+    - TOXENV=py26-nocover
+    - TOXENV=py27-nocover
+    - TOXENV=py33-nocover
+    - TOXENV=py34-nocover
+    - TOXENV=pypy-nocover
 before_install:
   - python --version
   - uname -a
