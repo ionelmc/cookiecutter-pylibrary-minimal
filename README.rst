@@ -14,6 +14,10 @@ Features
 * Tox_ for testing Python 2.6, 2.7, 3.3, PyPy etc. 
 * Travis-CI_ and Coveralls_ for continuous testing and coverage tracking (using Tox_).
 * Documentation with Sphinx_, ready for ReadTheDocs_.
+* Configurations for:
+
+  * `isort <https://pypi.python.org/pypi/isort>`_
+  * `bumpversion <https://pypi.python.org/pypi/bumpversion>`_
 
 Requirements
 ------------
