@@ -1,6 +1,6 @@
 import unittest
 
-from {{cookiecutter.package_name}} import main
+from {{cookiecutter.package_name}}.__main__ import main
 
 
 class MainTestCase(unittest.TestCase):
