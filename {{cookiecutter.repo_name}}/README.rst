@@ -2,7 +2,7 @@
 {{ cookiecutter.project_name }}
 ===============================
 
-| |docs| |travis| |appveyor| |coveralls| |landscape|
+| |docs| |travis| |appveyor| |coveralls| |landscape| |scrutinizer|
 | |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
 .. |docs| image:: https://readthedocs.org/projects/{{ cookiecutter.repo_name }}/badge/?style=flat
@@ -21,7 +21,7 @@
     :alt: Coverage Status
     :target: https://coveralls.io/r/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
 
-.. |landscape| image:: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/master/landscape.png?style=flat
+.. |landscape| image:: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/master/landscape.svg?style=flat
     :target: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/master
     :alt: Code Quality Status
 
@@ -44,6 +44,10 @@
 .. |supported-implementations| image:: https://pypip.in/implementation/{{ cookiecutter.distribution_name }}/badge.png?style=flat
     :alt: Supported imlementations
     :target: https://pypi.python.org/pypi/{{ cookiecutter.distribution_name }}
+
+.. |scrutinizer| image:: https://img.shields.io/scrutinizer/g/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/master.png?style=flat
+    :alt: Scrtinizer Status
+    :target: https://scrutinizer-ci.com/g/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/
 
 {{ cookiecutter.project_short_description }}
 
