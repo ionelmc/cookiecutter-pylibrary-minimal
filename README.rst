@@ -78,6 +78,7 @@ There's `more intricate variant <https://github.com/ionelmc/cookiecutter-pylibra
 
 * Has a generator script for the test matrix (there's a ``configure`` script that generates ``tox.ini``/``.travis.yml``).
 * Uses Pytest_ for the test runner.
+* Has support for building C extensions.
 
 If you have criticism or suggestions please open up an Issue or Pull Request.
 
