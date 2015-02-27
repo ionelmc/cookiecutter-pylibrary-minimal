@@ -7,6 +7,13 @@ to address this `blog post about packaging python libraries <http://blog.ionelmc
 
 There's a bare library using this template (if you're curious about the final result): https://github.com/ionelmc/python-nameless-minimal.
 
+.. list-table::
+    :stub-columns: 1
+    
+    * - *Note:*
+      - You should use `cookiecutter-pylibrary <https://github.com/ionelmc/cookiecutter-pylibrary>`_ - it's just like this
+        (just use ``no`` for the ``test_matrix_configurator`` option) but with ``py.test`` as the test runner. 
+
 Features
 --------
 
