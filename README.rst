@@ -11,7 +11,7 @@ There's a bare library using this template (if you're curious about the final re
     :stub-columns: 1
     
     * - *Note:*
-      - You should use `cookiecutter-pylibrary <https://github.com/ionelmc/cookiecutter-pylibrary>`_ - it's just like this
+      - You should use `cookiecutter-pylibrary <https://github.com/ionelmc/cookiecutter-pylibrary>`_ instead - it's just like this
         (just use ``no`` for the ``test_matrix_configurator`` option) but with ``py.test`` as the test runner. 
 
 Features
