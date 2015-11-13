@@ -1,6 +1,6 @@
-======================
-cookiecutter-pylibrary
-======================
+==================================================================
+Deprecated. Use cookiecutter-pylibrary instead!
+==================================================================
 
 `Cookiecutter <https://github.com/audreyr/cookiecutter>`_ template for a Python python library. This is largely designed
 to address this `blog post about packaging python libraries <http://blog.ionelmc.ro/2014/05/25/python-packaging/>`_.
